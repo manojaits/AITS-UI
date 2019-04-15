@@ -1,0 +1,80 @@
+.container {
+	margin: 0px auto;
+	margin-top: 40px;
+	max-width: 550px;
+	padding: 9px;
+	background-color: white;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	margin-bottom: 15px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+	width: 100%;
+	padding: 5px;
+	margin: 5px 0 22px 0;
+	border: none;
+	background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+	background-color: #ddd;
+	outline: none;
+}
+
+/* Set a style for the submit button */
+
+
+/* Set a style for the Back button */
+
+
+/*Headder CSS  */
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+		"Helvetica Neue", Arial, sans-serif;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.3;
+	color: #212529;
+	background-color: #f7f7f7;
+}
+
+.navbar {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-ms-flex-align: center;
+	align-items: center;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	padding: 1px;
+}
+
+/*
+headeer top
+*/
+.topbar {
+	background-color: #212529;
+	padding: 0;
+}
+
+.mx-background-top-linear {
+	background: -webkit-linear-gradient(45deg, #54d400 48%, #1b1e21 48%);
+	background: -webkit-linear-gradient(left, #54d400 48%, #1b1e21 48%);
+	background: linear-gradient(45deg, #54d400 48%, #1b1e21 48%);
+}
+
+/*Alert CSS  */
+.myAlert-top {
+	position: fixed;
+	top: 5px;
+	left: 2%;
+	width: 96%;
+}
+
+.alert {
+	display: none;
+}
